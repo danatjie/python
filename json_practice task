@@ -1,0 +1,74 @@
+import json
+
+data = {
+    'dana': {
+        'type': 'teacher',
+        'password': '122',
+        'name': 'Dana',
+        'surname': 'Tussupbekova',
+        'age': 27,
+        'isAdmin': True
+    },
+    'assel': {
+        'type': 'student',
+        'password': '123',
+        'name': 'Assel',
+        'surname': 'Tussupbekova',
+        'age': 23,
+        'isAdmin': False
+    },
+    'shynar': {
+        'type': 'student',
+        'password': '124',
+        'name': 'Shynar',
+        'surname': 'Sailauova',
+        'age': 27,
+        'isAdmin': False
+    }
+}
+
+# JSON without indentation
+json_data_no_indent = json.dumps(data)
+print("JSON without indentation:\n", json_data_no_indent)
+
+# JSON with indentation (2 spaces)
+json_data_with_indent = json.dumps(data, indent=2)
+print("\nJSON with indentation (2 spaces):\n", json_data_with_indent)'''
+
+import json
+
+data = {
+    'dana': {
+        'type': 'teacher',
+        'password': '122',
+        'name': 'Dana',
+        'surname': 'Tussupbekova',
+        'age': 27,
+        'isAdmin': True
+    },
+    'assel': {
+        'type': 'student',
+        'password': '123',
+        'name': 'Assel',
+        'surname': 'Tussupbekova',
+        'age': 23,
+        'isAdmin': False
+    },
+    'shynar': {
+        'type': 'student',
+        'password': '124',
+        'name': 'Shynar',
+        'surname': 'Sailauova',
+        'age': 27,
+        'isAdmin': False
+    }
+}
+
+# Specify the file name
+json_file_path = 'data.json'
+
+# Write the data to the JSON file
+with open(json_file_path, 'w') as json_file:
+    json.dump(data, json_file, indent=2)
+
+print(f'Data has been saved to {json_file_path}')

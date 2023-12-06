@@ -1,0 +1,13 @@
+
+import re
+
+def password_check():
+    re.findall(r'^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[!@#$%^&*]).{8,}$', txt)
+    print('password succesfully created')
+    
+
+
+
+while True:
+        txt = input('Please create a unique password')
+        password_check()

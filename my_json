@@ -1,0 +1,28 @@
+{
+   "users": {
+      "dana": {
+         "type": "teacher",
+         "password": "122",
+         "name": "Dana",
+         "surname": "Tussupbekova",
+         "age": 27,
+         "isAdmin": true
+      },
+      "assel": {
+         "type": "student",
+         "password": "123",
+         "name": "Assel",
+         "surname": "Tussupbekova",
+         "age": 23,
+         "isAdmin": false
+      },
+      "shynar": {
+         "type": "student",
+         "password": "124",
+         "name": "Shynar",
+         "surname": "Sailauova",
+         "age": 27,
+         "isAdmin": false
+      }
+   }
+}

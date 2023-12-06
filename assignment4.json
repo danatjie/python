@@ -1,0 +1,17 @@
+{
+  "Dana.T": {
+    "password": "asd123",
+    "name": "Dana",
+    "type": "student"
+  },
+  "Assel.T": {
+    "password": "123qwe",
+    "name": "Assel",
+    "type": "student"
+  },
+  "Dilda.K": {
+    "password": "qwe123",
+    "name": "Dilda",
+    "type": "teacher"
+  }
+}
